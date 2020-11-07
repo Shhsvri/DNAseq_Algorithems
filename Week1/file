@@ -1,0 +1,11 @@
+decision2      Transfused_Control     n
+Exclude        Control               23
+Exclude        Transfused            21
+Full_neg       Control               20
+Full_neg       Transfused            12
+Pre_pos        Control               20
+Pre_pos        Transfused            25
+RETEST         Control                1
+RETEST         Transfused             1
+Seroconversion Control                2
+Seroconversion Transfused             3

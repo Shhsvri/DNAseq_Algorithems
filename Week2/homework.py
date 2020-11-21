@@ -1,4 +1,5 @@
 ## Fasta File
+
 def readGenome(filename):
     genome = ''
     with open(filename,'r') as fp:
@@ -22,6 +23,7 @@ def naive(p,t):
         if match:
             occurences.append(i)
     return c, occurences
+
 
 def naive_2mm(p,t):
     occurences = []
@@ -85,6 +87,13 @@ print(boyer_moore(p,p_bm, genome))
 
 from kmer_index import Index
 
-index = Index(genome, 8)
-print(index)
+p = 'GGCGCGGTGGCTCACGCCTGTAAT'
+print(len(naive_2mm(p,genome)))
+
+index = Index(p, 8)
+
+
+
+
+
 
